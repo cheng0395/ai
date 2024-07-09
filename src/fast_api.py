@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from src.chat import get_response
-from src.db import get_chat_history
+from chat import get_response
+from db import get_chat_history
 
 app = FastAPI()
 
